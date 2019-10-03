@@ -1,0 +1,350 @@
+a { color: inherit;
+text-decoration: none; } 
+
+body {
+  background-color: #f7f3f4;
+}
+
+.App {
+  text-align: center;
+  background-color: #f7f3f4;
+  color: #201751;
+}
+
+.header-images {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  /* toggle this for mobile layout */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.intro-img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.check {
+  height: 40px;
+}
+
+.products {
+  background-color: #b32572;
+  color: white;
+}
+
+.cultures {
+  background-color: #3cb4e5;
+  color: white;
+}
+.bottomnav {
+  height: 25vh;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.introTxt {
+  height: 100%;
+  width: 100%;
+}
+
+.listTitle {
+  margin-top: 10%;
+  margin-left: 3%;
+  height: 20%;
+  width:95%;
+  text-align: left;
+}
+
+.listTitle h1 {
+  color: #bce4fa;
+  font-size: 75px;
+  margin-top: 0;
+}
+
+.listTitle h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.listContainer {
+  height: 60%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  width: 100%;
+}
+
+.listContainer li {
+  height: 60px;
+  width: 90%;
+  text-align: left;
+  font-size: 25px;
+}
+
+.listContainer li p {
+  margin-left: 15%;
+}
+
+.listContainer li img {
+  margin: 1.1em;
+  height: 100%;
+  float: left;
+}
+
+.mascot {
+  width: 80%;
+  margin-top: 7%;
+}
+
+.dottedLine {
+  width: 85%;
+  border: 5px dotted;
+  border-style: none none dotted;
+}
+
+.products,
+.cultures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cultures > div,
+.products > div {
+  width: 70%;
+}
+
+#introDC {
+  color: #e40521;
+}
+
+#subtitle {
+  margin-left: 3%;
+  text-align: left;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.aboutDC {
+  width: 90%;
+  font-size: 25px;
+  margin-left: 3%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.smart {
+  font-size: 60px;
+  font-weight: 500;
+  color: #ed5ea7;
+}
+
+.smart2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #ed5ea7;
+}
+
+.subtext {
+  font-size: 35px;
+  margin: 0;
+  text-align: left;
+}
+
+.navTitle {
+  font-size: 70px;
+  margin: 0;
+  text-align: left;
+}
+
+.fab {
+  padding: 50px 50px 50px 0px;
+}
+.legal {
+  width: 90%;
+}
+
+.legal p {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+  margin-right: 5vw;
+}
+
+.fab,
+.far {
+  font-size: 7em;
+}
+
+@media only screen and (max-width: 1280px) {
+  .App-header {
+    min-height: 102vh;
+  }
+  .listContainer li img {
+    margin-top: 1.45em;
+    height: 2em;
+  }
+  .listContainer li {
+    font-size: 20px;
+  }
+  .listContainer {
+    margin: 5vh 0 0 0;
+  }
+  .smart {
+    font-size: 35px;
+ 
+}
+
+  .fab,
+  .far {
+    font-size: 4em;
+  }
+  .fab {
+    padding: 0.5em 0.5em 0.5em 0px;
+  }
+  /* .listTitle h1 {
+    font-size: 45px;
+  }
+  .listTitle h2 {
+    font-size: 20px;
+  } */
+  .mascot {
+    width: 100%;
+  }
+  #subtitle {
+    font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+  .header-images {
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .socials {
+    width: 50%;
+  }
+  .bottomnav {
+    margin-top: 7vh;
+  }
+  .listContainer li p {
+    margin-top: 1.2em;
+  }
+  .listContainer li img {
+    margin-top: 1em;
+    height: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-images {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  #subtitle {
+    font-size: 30px;
+  }
+  .listContainer li p {
+    margin-top: 0.5em;
+  }
+  .bottomnav {
+    margin-top: 5vh;
+  }
+
+  .footer {
+    flex-direction: column-reverse !important;
+  }
+  .socials {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .listTitle h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.listTitle h1 {
+  font-size: 50px;
+  margin-bottom: .5em;
+}
+.aboutDC {
+  width: 90vw;
+  padding: 15px;
+  font-size: 25px;
+  margin-left: 3%;
+
+}
+.listTitle {
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 20%;
+  width: 100%;
+  text-align: left;
+}
+#subtitle {
+  margin-left: 6%;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.smart {
+  font-size: 40px;
+  font-weight: 500;
+  color: #ed5ea7;
+}
+.listContainer li {
+ margin-top: 5vh;
+}
+.listContainer {
+  margin: 0 0 0 0;
+}
+.footer {
+  margin-top: 10vh;
+  
+}
+.fab, .far {
+  font-size: 3em;
+}
+.navTitle {
+  font-size: 50px;
+
+}
+.subtext {
+  font-size: 20px;
+ 
+}
+.products div {
+  padding: 15px;
+}
+.cultures div {
+  padding: 15px;
+}
+}
+

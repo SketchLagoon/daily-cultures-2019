@@ -1,0 +1,218 @@
+.intro-img3 {
+    width: 80% !important;
+    height: auto;
+    margin-top: 17vh;
+}
+.videoGrid {
+    height: 100vh;
+}
+
+.videoGrid div img {
+    height: 20em;
+}
+
+.leftTwinkles {
+    margin-top: 50vh;
+}
+.rightTwinkles {
+    margin-top: 5vh;
+}
+
+.video {
+    margin-top: 25vh;
+}
+#subtitle {
+    margin-left: 3%;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.listContainer li {
+    height: 100px;
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: left;
+    font-size: 25px;
+}
+.listContainer li img {
+    margin: 1.1em 0 1.1em 1.2em;
+    height: 100%;
+    float: left;
+}
+
+.listContainer li p {
+    margin-left: 18%;
+}
+
+.smart {
+    font-size: 35px;
+}
+
+.shell {
+    font-weight: 500;
+    font-size: 30px;
+    color: #3cb4e5;
+}
+
+.effective {
+    font-weight: 500;
+    font-size: 30px;
+    color: #f7ab59;
+}
+.products {
+    background-color: #b32572;
+    color: white;
+}
+
+.faq {
+    width: 90%;
+    margin: 0 7% 0 3%;
+}
+
+.question{
+    width: 100%;
+}
+.answer {
+    margin-top: -5vh;
+}
+
+.label {
+    text-align: right !important;
+}
+.label p {
+    margin-right: 2vw;
+    font-weight: 700;
+    font-size: 28px;
+    color: #b32572;
+}
+
+.questionBold {
+    margin-top: 1em !important;
+    font-size: 28px !important;
+    font-weight: 600;
+    color: #b32572;
+}
+
+.answerBold{
+    font-weight: 800 !important;
+    font-size: 22px;
+    margin-top: 0 !important;
+}
+
+.answer .detail p {
+    font-weight: 500;
+}
+
+.detail p {
+    margin-top: 1.8em;
+    font-size: 18px;
+}
+
+.detail {
+    text-align: left !important;
+}
+
+.detail {
+    width: 90%;
+}
+
+.titleBtn a {
+    background-color: #b32572;
+    margin-left: 41%;
+}
+
+.titleBtn {
+    margin-top: 5vh;
+    margin-left: 3%;
+    text-align: left !important;
+}
+
+.dottedLine2 {
+    margin-left: 3%;
+}
+
+.listTitle {
+    height: 15%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .listContainer li img {
+        margin: 1.1em 0 1.1em 0.7em;
+        height: 3em;
+        float: left;
+    }
+    .listContainer li p {
+        font-size: 20px;
+        margin-top: 1em;
+        width: 75%;
+    }
+    .shell {
+        font-weight: 500;
+        font-size: 20px;
+        color: #3cb4e5;
+    }
+    .effective {
+        font-weight: 500;
+        font-size: 20px;
+        color: #f7ab59;
+    }
+    .listTitle h1 {
+        color: #bce4fa;
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .listTitle h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .intro-img3 {
+        height: auto;
+        margin-top: 27vh;
+    }
+    .video {
+        width: 100%;
+    }
+    .label p {
+        margin-right: 2vw;
+        font-weight: 700;
+        font-size: 28px;
+        color: #b32572;
+    }
+    
+    .questionBold {
+        margin-top: 1.3em !important;
+        font-size: 25px !important;
+    }
+    
+    .answerBold{
+        font-size: 18px;
+    }
+    .detail p {
+        margin-top: 2.8em;
+        font-size: 14px;
+    }
+    .titleBtn a {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .intro-img3 {
+        width: 90% !important;
+        padding-left: 5vw;
+        height: auto;
+        margin-top: 10vh;
+    }
+    .video{
+        width: 100%;
+    }
+    .twinkles{
+        display: none
+    }
+    .detail {
+        width: auto;
+    }
+    .detail p {
+        width: auto;
+    }
+}
