@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/daily-cultures-2019/static/css/main.e20da674.chunk.css",
+    "main.js": "/daily-cultures-2019/static/js/main.06ecae64.chunk.js",
+    "main.js.map": "/daily-cultures-2019/static/js/main.06ecae64.chunk.js.map",
+    "runtime-main.js": "/daily-cultures-2019/static/js/runtime-main.df18cbb6.js",
+    "runtime-main.js.map": "/daily-cultures-2019/static/js/runtime-main.df18cbb6.js.map",
+    "static/js/2.0e3ce278.chunk.js": "/daily-cultures-2019/static/js/2.0e3ce278.chunk.js",
+    "static/js/2.0e3ce278.chunk.js.map": "/daily-cultures-2019/static/js/2.0e3ce278.chunk.js.map",
+    "index.html": "/daily-cultures-2019/index.html",
+    "precache-manifest.4506b75a65050862152457eb5b304062.js": "/daily-cultures-2019/precache-manifest.4506b75a65050862152457eb5b304062.js",
+    "service-worker.js": "/daily-cultures-2019/service-worker.js",
+    "static/css/main.e20da674.chunk.css.map": "/daily-cultures-2019/static/css/main.e20da674.chunk.css.map",
+    "static/media/cameo.png": "/daily-cultures-2019/static/media/cameo.966a16f2.png",
+    "static/media/cameo2.png": "/daily-cultures-2019/static/media/cameo2.9872443a.png",
+    "static/media/cameo3.png": "/daily-cultures-2019/static/media/cameo3.1c73a854.png",
+    "static/media/digestive.png": "/daily-cultures-2019/static/media/digestive.23235363.png",
+    "static/media/gut.png": "/daily-cultures-2019/static/media/gut.638b125a.png",
+    "static/media/gutHappyText.png": "/daily-cultures-2019/static/media/gutHappyText.af074674.png",
+    "static/media/intro-img.png": "/daily-cultures-2019/static/media/intro-img.1b4ea786.png",
+    "static/media/left-half-1.png": "/daily-cultures-2019/static/media/left-half-1.b494c791.png",
+    "static/media/left.png": "/daily-cultures-2019/static/media/left.804799b6.png",
+    "static/media/logo-v1.png": "/daily-cultures-2019/static/media/logo-v1.1f4f386a.png",
+    "static/media/logo.png": "/daily-cultures-2019/static/media/logo.dc18d282.png",
+    "static/media/mugGrin.png": "/daily-cultures-2019/static/media/mugGrin.05f96b1c.png",
+    "static/media/pack.png": "/daily-cultures-2019/static/media/pack.5cbe41d6.png",
+    "static/media/pack2.png": "/daily-cultures-2019/static/media/pack2.231fa3b5.png",
+    "static/media/packs.png": "/daily-cultures-2019/static/media/packs.8239eec2.png",
+    "static/media/right.png": "/daily-cultures-2019/static/media/right.c8d86ad7.png",
+    "static/media/text.png": "/daily-cultures-2019/static/media/text.adf51743.png",
+    "static/media/twinkles.png": "/daily-cultures-2019/static/media/twinkles.a9737cf2.png"
+  }
+}
