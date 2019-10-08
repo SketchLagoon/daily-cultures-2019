@@ -1,0 +1,48 @@
+.trialBox {
+    width: 100%;
+    margin-top: 5vh;
+}
+.productTrial {
+    width: 80%;
+    margin-top: 15vh;
+}
+.listTitle h1 {
+    color: #bce4fa;
+    font-size: 75px;
+    margin-top: 3vh;
+}
+#DC{
+   color: #B32572;
+}
+#lifestyle {
+    color: #3CB4E5;
+}
+.buyMe {
+    padding: 5px 15px 5px 15px;
+    background-color: #B32572;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+}
+.trialBoxBuyMe p, .trialBoxBuyMe h1, .trialBoxBuyMe a {
+    text-align: right !important;
+    display: inline;
+}
+
+.trialBoxBuyMe {
+    margin-bottom: 10vh;
+}
+
+#trialBoxDesc{
+    margin-bottom: 10vh;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.listContainer li img {
+    height: 60%;
+}
+
+#trialListTitle{
+    margin-bottom: 10vh;
+}
