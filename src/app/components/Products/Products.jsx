@@ -53,13 +53,15 @@ function Products() {
             <div className="intro-txt">
               <div className="listTitle">
                 <h2>ways you can enjoy</h2>
-                <h1 id="introDC">Daily Cultures</h1>
+                <h1 id="productsIntroDC">Daily Cultures</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>
               <h2 id="subtitle">
                 The convenience of our{" "}
-                <span className="smart">smart cultures</span>
+                <span className="smart" id="productsSmart">
+                  smart cultures
+                </span>
               </h2>
               <p className="aboutDC">
                 Our products contain only the best, natural ingredients,
@@ -101,14 +103,14 @@ function Products() {
               alt="natural and nourishing smart cultures, 100% natural ingredients"
             />
             <div className="productInfo">
-              <div className="titleBtn">
+              <div className="titleBtn1">
                 <h2>fuel your morning</h2>
-                <a>Buy me</a>
+                <a id="buyPorridge">Buy me</a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
                 with new Daily Cultures amazing wholegrain porridge. Packed with{" "}
-                <span className="smart2"> smart cultures</span> to help set up
+                <span className="smart3"> smart cultures</span> to help set up
                 the gut for the rest of the day
               </p>
               <h1 className="productTag">
@@ -142,10 +144,13 @@ function Products() {
               <p className="productDesc">
                 with new Daily Cultures delicious tasting breakfast and
                 peppermint teas. Packed with{" "}
-                <span className="smart2"> smart cultures</span> to help provide
+                <span className="smart4"> smart cultures</span> to help provide
                 a refreshing boost for your gut
               </p>
-              <h1 className="productTag2"> It's one extraordinary cup of tea</h1>
+              <h1 className="productTag2">
+                {" "}
+                It's one extraordinary cup of tea
+              </h1>
             </div>
           </Grid>
         </Grid>
@@ -171,29 +176,45 @@ function Products() {
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
-                with new Daily Cultures nourishing oat based cereal bars. Packed with
-                <span className="smart2"> smart cultures</span> to help keep the gut happy wherever you may be
+                with new Daily Cultures nourishing oat based cereal bars. Packed
+                with
+                <span className="smart5"> smart cultures</span> to help keep the
+                gut happy wherever you may be
               </p>
-              <h1 className="productTag3"> It's one extraordinary cereal bar</h1>
+              <h1 className="productTag3">
+                {" "}
+                It's one extraordinary cereal bar
+              </h1>
             </div>
           </Grid>
         </Grid>
         {/* products / culture */}
         <Grid container className="bottomnav">
-          <Grid item xs={12} sm={12} md={6} className="products">
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            className="products"
+            id="productsCultures"
+          >
             <div>
-              <h2 className="subtext">learn about our</h2>
-              <h1 className="navTitle" id="productsNav">
-                Cultures
-              </h1>
+              <a href="/science">
+                <h2 className="subtext">learn about our</h2>
+                <h1 className="navTitle" id="productsNav">
+                  Cultures
+                </h1>
+              </a>
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={6} className="cultures">
             <div>
-              <h2 className="subtext">grab yourself a </h2>
-              <h1 className="navTitle" id="culturesNav">
-                Taster pack
-              </h1>
+              <a href="/trial">
+                <h2 className="subtext">grab yourself a </h2>
+                <h1 className="navTitle" id="culturesNav">
+                  Taster pack
+                </h1>
+              </a>
             </div>
           </Grid>
         </Grid>
@@ -205,7 +226,7 @@ function Products() {
           <Grid item xs={12} sm={12} md={6} className="footerText">
             <div className="listTitle">
               <h2>are you gut happy?</h2>
-              <h1 id="introDC">Then say hello</h1>
+              <h1 id="productsIntroDC">Then say hello</h1>
               <div className="dottedLine"></div>
               <div className="socials">
                 <i className="fab fa-instagram"></i>

@@ -94,7 +94,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 0;
+  margin-top: 8vh;
   width: 100%;
 }
 
@@ -138,9 +138,9 @@ ul {
   width: 70%;
 }
 
-#introDC {
+/* #introDC {
   color: #e40521;
-}
+} */
 
 #subtitle {
   margin-left: 3%;
@@ -199,7 +199,23 @@ ul {
 
 .fab,
 .far {
-  font-size: 7em;
+  font-size: 6em;
+}
+
+#homeCultures {
+  background-color: #3cb4e5;
+}
+
+#homeIntroDC{
+  color: #b32572;
+}
+
+#homeDigestiveHealth {
+  color: #3CB4E5;
+}
+
+.socials {
+  color: #3cb4e5;
 }
 
 @media only screen and (max-width: 1280px) {

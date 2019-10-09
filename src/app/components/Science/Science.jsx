@@ -57,12 +57,13 @@ function Science() {
             <div className="intro-txt">
               <div className="listTitle">
                 <h2>the good bacteria in</h2>
-                <h1 id="introDC">Daily Cultures</h1>
+                <h1 id="scienceDC">Daily Cultures</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>
               <h2 id="subtitle">
-                The <span className="smart">smart</span> way to love your gut
+                What makes our <span className="smart">smart</span> cultures
+                better than others
               </h2>
               <ul className="listContainer">
                 <li>
@@ -170,8 +171,10 @@ function Science() {
                       <Grid item lg={11}>
                         <div className="detail">
                           <p>
-                            <span className="answerBold">Cultures are more commonly known as probiotics.</span> They
-                            are live micro-organisms, which, when taken in
+                            <span className="answerBold">
+                              Cultures are more commonly known as probiotics.
+                            </span>{" "}
+                            They are live micro-organisms, which, when taken in
                             adequate amounts offer health benefits... We also
                             call probiotics 'good' or 'friendly' bacteria
                           </p>
@@ -207,9 +210,10 @@ function Science() {
                       <Grid item lg={11}>
                         <div className="detail">
                           <p>
-                          <span className="answerBold">Yes.</span> Our products taste just like normal. The good
-                            bacteria we use is taste free, so the natural,
-                            delicious taste is 100% unaffected.
+                            <span className="answerBold">Yes.</span> Our
+                            products taste just like normal. The good bacteria
+                            we use is taste free, so the natural, delicious
+                            taste is 100% unaffected.
                           </p>
                         </div>
                       </Grid>
@@ -244,9 +248,10 @@ function Science() {
                       <Grid item lg={11}>
                         <div className="detail">
                           <p>
-                          <span className="answerBold">Yes.</span> Our cultures are encased in a 100% natural
-                            protective shell. This shields them from harsh
-                            conditions like heat or stomach acid.
+                            <span className="answerBold">Yes.</span> Our
+                            cultures are encased in a 100% natural protective
+                            shell. This shields them from harsh conditions like
+                            heat or stomach acid.
                           </p>
                         </div>
                       </Grid>
@@ -280,8 +285,9 @@ function Science() {
                       <Grid item lg={11}>
                         <div className="detail">
                           <p>
-                          <span className="answerBold">Yes.</span> Have as much as you like. Your body can never
-                            have enough good bacteria!
+                            <span className="answerBold">Yes.</span> Have as
+                            much as you like. Your body can never have enough
+                            good bacteria!
                           </p>
                         </div>
                       </Grid>
@@ -329,7 +335,7 @@ function Science() {
           <Grid item xs={12} sm={12} md={6} className="footerText">
             <div className="listTitle">
               <h2>are you gut happy?</h2>
-              <h1 id="introDC">Then say hello</h1>
+              <h1 id="scienceIntroDC">Then say hello</h1>
               <div className="dottedLine"></div>
               <div className="socials">
                 <a href="https://www.instagram.com/daily_cultures_/">

@@ -135,6 +135,18 @@
     height: 15%;
 }
 
+#scienceIntroDC{
+    color: #b32572;
+  }
+
+  #scienceDC {
+      color: #3CB4E5;
+  }
+
+  .one, .two, .three, .four {
+      height: 100% !important;
+  }
+
 @media only screen and (max-width: 1280px) {
     .listContainer li img {
         margin: 1.1em 0 1.1em 0.7em;

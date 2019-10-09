@@ -43,6 +43,14 @@
     height: 60%;
 }
 
-#trialListTitle{
-    margin-bottom: 10vh;
+#trialProducts {
+    background-color: #B32572;
 }
+
+#trialCultures {
+    background-color: #3CB4E5;
+}
+
+#trialIntroDC{
+    color: #b32572;
+  }

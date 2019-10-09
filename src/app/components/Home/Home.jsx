@@ -50,7 +50,7 @@ function Home() {
             <div className="intro-txt">
               <div className="listTitle">
                 <h2>introducing</h2>
-                <h1 id="introDC">Daily Cultures</h1>
+                <h1 id="homeIntroDC">Daily Cultures</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>
@@ -104,7 +104,7 @@ function Home() {
             <div className="introTxt">
               <div className="listTitle">
                 <h2>the benefits of better</h2>
-                <h1>Digestive health</h1>
+                <h1 id="homeDigestiveHealth">Digestive health</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>
@@ -153,19 +153,28 @@ function Home() {
           <Grid item xs={12} sm={12} md={6} className="products">
             <div>
               <a href="/products">
-              <h2 className="subtext">explore our</h2>
-              <h1 className="navTitle" id="productsNav">
-                Products
-              </h1>
+                <h2 className="subtext">explore our</h2>
+                <h1 className="navTitle" id="productsNav">
+                  Products
+                </h1>
               </a>
             </div>
           </Grid>
-          <Grid item xs={12} sm={12} md={6} className="cultures">
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            className="cultures"
+            id="homeCultures"
+          >
             <div>
-              <h2 className="subtext">learn about our</h2>
-              <h1 className="navTitle" id="culturesNav">
-                Cultures
-              </h1>
+              <a href="/science">
+                <h2 className="subtext">learn about our</h2>
+                <h1 className="navTitle" id="culturesNav">
+                  Cultures
+                </h1>
+              </a>
             </div>
           </Grid>
         </Grid>
@@ -177,7 +186,7 @@ function Home() {
           <Grid item xs={12} sm={12} md={6} className="footerText">
             <div className="listTitle">
               <h2>are you gut happy?</h2>
-              <h1 id="introDC">Then say hello</h1>
+              <h1 id="homeIntroDC">Then say hello</h1>
               <div className="dottedLine"></div>
               <div className="socials">
                 <i className="fab fa-instagram"></i>

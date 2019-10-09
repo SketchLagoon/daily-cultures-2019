@@ -91,6 +91,35 @@
   font-weight: 500;
   color: #ed5ea7;
 }
+.smart3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #EC660D;
+}
+.smart4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #e40521;
+}
+.smart5 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #B32572;
+}
+#productsCultures {
+  background-color: #3CB4E5;
+}
+#productsIntroDC{
+  color: #b32572;
+}
+#productsSmart{
+  color: #3CB4E5;
+}
+#buyPorridge {
+
+  margin-left: 51%;
+
+}
 
 @media only screen and (max-width: 1280px) {
     .titleBtn a {
@@ -131,6 +160,11 @@
     }
     .productTag3 {
         font-size: 20px;
+    }
+    #buyPorridge {
+
+      margin-left: 34%;
+    
     }
 }
 
@@ -175,6 +209,11 @@
 .titleBtn2 a {
     margin-left: 28%;
 }
+#buyPorridge {
+
+  margin-left: 37%;
+
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -191,6 +230,11 @@
     .listTitle {
         margin-top: 22%;
         width: 95%;
+    }
+    #buyPorridge {
+
+      margin-left: 0;
+    
     }
 }
 
