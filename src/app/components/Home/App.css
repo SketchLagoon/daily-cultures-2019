@@ -4,14 +4,17 @@ text-decoration: none; }
 body {
   background-color: #f7f3f4;
 }
-
-.MuiGrid-root {
-  overflow: hidden;
+p {
+  font-family: trade-gothic-next, sans-serif;
 }
 
 h1, h2, a {
   font-family: clarendon-text-pro, serif;
   font-weight: 500 !important;
+}
+
+.MuiGrid-root {
+  overflow: hidden;
 }
 
 .App {
