@@ -222,6 +222,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #subtitle {
+    margin: 0;
+    text-align: left;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
     .titleBtn a {
         margin-left: 23%;
         
@@ -241,6 +248,10 @@
       margin-left: 0;
     
     }
+    .cameos{
+      height:auto;
+      margin-bottom: 20vh;
+    }
 }
 
 @media only screen and (max-width: 415px) {
@@ -248,17 +259,20 @@
         font-size: 49px;
     }
 .titleBtn a {
-    width: 100px;
+        width: 150px;
+    text-align: center;
     margin: 0.5em 0 0 0 !important;
     display: block;
 }
 .titleBtn1 a {
-    width: 100px;
+        width: 150px;
+    text-align: center;
     margin: 0.5em 0 0 0;
     display: block;
 }
 .titleBtn2 a {
-    width: 100px;
+        width: 150px;
+    text-align: center;
     margin: 0.5em 0 0 0;
     display: block;
 }
