@@ -5,6 +5,10 @@ body {
   background-color: #f7f3f4;
 }
 
+.MuiGrid-root {
+  overflow: hidden;
+}
+
 h1, h2 {
   font-family: clarendon-text-pro, serif;
   font-weight: 500 !important;
