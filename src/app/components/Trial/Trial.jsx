@@ -47,7 +47,7 @@ function Trial() {
             <div className="introTxt">
               <div className="listTitle" id="trialListTitle">
                 <h2>5 reasons to try</h2>
-                <h1>Daily Cultures</h1>
+                <h1 className="introDCTrial">Daily Cultures</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>

@@ -81,7 +81,7 @@ function Products() {
                 <br></br>
                 <br></br>
                 Daily Cultures makes adding{" "}
-                <span className="smart2"> smart cultures</span> to your daily
+                <span className="smart6"> smart cultures</span> to your daily
                 routine easy.
               </p>
             </div>

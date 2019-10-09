@@ -11,6 +11,7 @@ import four from "./4.png";
 import mascot from "../Home/footer/twinkles.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+import Container from '@material-ui/core/Container';
 import "../Home/App.css";
 import "./science.css";
 
@@ -62,7 +63,7 @@ function Science() {
               </div>
               <br></br>
               <h2 id="subtitle">
-                What makes our <span className="smart">smart</span> cultures
+                What makes our <span className="smart" id="scienceSmart">smart cultures </span> 
                 better than others
               </h2>
               <ul className="listContainer">
@@ -137,10 +138,11 @@ function Science() {
             <img src={mugGrin} className="intro-img" alt="simply gut happy" />
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
+            <Container>
             <div className="introTxt">
               <div className="listTitle">
                 <h2>common questions about</h2>
-                <h1 id="introDC">Daily Cultures</h1>
+                <h1 id="introDC" className="scienceDC">Daily Cultures</h1>
                 <div className="dottedLine"></div>
               </div>
               <br></br>
@@ -154,7 +156,7 @@ function Science() {
                           <p>Q:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p className="questionBold">What are cultures?</p>
                         </div>
@@ -168,7 +170,7 @@ function Science() {
                           <p>A:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p>
                             <span className="answerBold">
@@ -191,7 +193,7 @@ function Science() {
                           <p>Q:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p className="questionBold">
                             Will it taste like my normal food and drink?
@@ -207,7 +209,7 @@ function Science() {
                           <p>A:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p>
                             <span className="answerBold">Yes.</span> Our
@@ -228,7 +230,7 @@ function Science() {
                           <p>Q:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p className="questionBold">
                             Can the cultures survive boiling water and
@@ -245,7 +247,7 @@ function Science() {
                           <p>A:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p>
                             <span className="answerBold">Yes.</span> Our
@@ -266,7 +268,7 @@ function Science() {
                           <p>Q:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p className="questionBold">
                             Can I have more than one portion a day?
@@ -282,7 +284,7 @@ function Science() {
                           <p>A:</p>
                         </div>
                       </Grid>
-                      <Grid item lg={11}>
+                      <Grid item lg={11} sm={12}>
                         <div className="detail">
                           <p>
                             <span className="answerBold">Yes.</span> Have as
@@ -302,6 +304,7 @@ function Science() {
               </div>
               <div className="dottedLine dottedLine2"></div>
             </div>
+            </Container>
           </Grid>
         </Grid>
         {/* products / culture */}
