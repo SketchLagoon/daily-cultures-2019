@@ -51,7 +51,7 @@ function Trial() {
                 <div className="dottedLine"></div>
               </div>
               <br></br>
-              <ul className="listContainer">
+              <ul className="listContainer" id="ListFix">
                 <li>
                   <img src={check} className="check" />
                   <p>
