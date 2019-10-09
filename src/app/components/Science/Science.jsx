@@ -158,7 +158,7 @@ function Science() {
                       </Grid>
                       <Grid item lg={11} sm={12}>
                         <div className="detail">
-                          <p className="questionBold">What are cultures?</p>
+                          <p className="questionBold">What are the cultures in your products?</p>
                         </div>
                       </Grid>
                     </Grid>
