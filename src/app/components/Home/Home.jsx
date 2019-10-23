@@ -9,6 +9,7 @@ import check from "./digestive-health/check.png";
 import mascot from "./footer/twinkles.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+
 import "./App.css";
 
 const useStyles = makeStyles(theme => ({
@@ -27,6 +28,7 @@ function Home() {
 
   return (
     <div className="App">
+      
       <div className={classes.root}>
         {/* header */}
         <Grid className="App-header" container>

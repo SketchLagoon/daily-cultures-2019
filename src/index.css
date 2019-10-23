@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.menu-btn {
+  position: fixed !important;
+  right: 0;
+  padding: 24px !important;
+}
