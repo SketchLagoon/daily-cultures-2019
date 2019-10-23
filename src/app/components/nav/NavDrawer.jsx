@@ -47,13 +47,13 @@ export default function NavDrawer() {
       <Divider />
       <List>
         <ListItem button>
-          <a href="#">Instagram</a>
+          <a href="https://www.instagram.com/daily_cultures_/">Instagram</a>
         </ListItem>
         <ListItem button>
-          <a href="#">Twitter</a>
+          <a href="https://twitter.com/DailyCultures">Twitter</a>
         </ListItem>
         <ListItem button>
-          <a href="#">Facebook</a>
+          <a href="https://www.facebook.com/DailyCultures/">Facebook</a>
         </ListItem>
         <ContactModal />
       </List>

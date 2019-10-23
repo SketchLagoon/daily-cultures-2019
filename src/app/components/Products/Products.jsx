@@ -105,7 +105,7 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn1">
                 <h2>fuel your morning</h2>
-                <a id="buyPorridge">Buy me</a>
+                <a id="buyPorridge" href="https://www.amazon.co.uk/Daily-Cultures-Porridge-Packs-Sachets/dp/B074DYVMKQ?ref_=ast_sto_dp">Buy me</a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
@@ -138,7 +138,7 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn1">
                 <h2>make time for a brew</h2>
-                <a>Buy me</a>
+                <a href="https://www.amazon.co.uk/Daily-Cultures-Breakfast-Tea-Packs/dp/B0798P9RFC?ref_=ast_sto_dp">Buy me</a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
@@ -172,7 +172,7 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn2">
                 <h2>stay ready for anything</h2>
-                <a>Buy me</a>
+                <a href="https://www.amazon.co.uk/stores/page/F8728F12-2EFA-489A-BA63-0A449384ABAE?ingress=3">Buy me</a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
