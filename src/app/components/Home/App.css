@@ -137,6 +137,7 @@ ul {
   /* width: 85%; */
   border: 5px dotted;
   border-style: none none dotted;
+  padding-top: 15px;
 }
 
 .products,

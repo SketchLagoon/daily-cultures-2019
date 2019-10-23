@@ -216,6 +216,9 @@
 }
 
 @media only screen and (max-width: 960px) {
+    #science-contact {
+        float: none;
+    }
     .intro-img3 {
         width: 90% !important;
         padding-left: 5vw;
