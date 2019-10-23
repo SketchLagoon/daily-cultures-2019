@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
@@ -6,8 +6,8 @@ import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import SimpleModal from "../contact/contact"
 
+import ContactModal from "../contact/ContactModal";
 
 const useStyles = makeStyles({
   list: {
@@ -18,32 +18,22 @@ const useStyles = makeStyles({
   }
 });
 
-export default function TemporaryDrawer() {
+export default function NavDrawer() {
   const classes = useStyles();
-  const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
-    right: false
-  });
+  const [drawer, setDrawer] = useState({ right: false });
 
   const toggleDrawer = (side, open) => event => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-
-    setState({ ...state, [side]: open });
+    (event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")) ||
+      setDrawer({ ...drawer, [side]: open });
   };
 
   const sideList = side => (
     <div
       className={classes.list}
       role="presentation"
-      onClick={toggleDrawer(side, false)}
-      onKeyDown={toggleDrawer(side, false)}
+      onClick={toggleDrawer(side, true)}
+      onKeyDown={toggleDrawer(side, true)}
     >
       <List>
         {["Home", "Products", "Science", "Trial"].map((text, index) => (
@@ -56,29 +46,16 @@ export default function TemporaryDrawer() {
       </List>
       <Divider />
       <List>
-        
-          <ListItem button>
-            <a href="#">
-            Instagram
-            </a>
-          </ListItem>
-
-          <ListItem button>
-            <a href="#">
-            Twitter
-            </a>
-          </ListItem>
-
-          <ListItem button>
-            <a href="#">
-            Facebook
-            </a>
-          </ListItem>
-
-          
-            <SimpleModal/>
-          
-    
+        <ListItem button>
+          <a href="#">Instagram</a>
+        </ListItem>
+        <ListItem button>
+          <a href="#">Twitter</a>
+        </ListItem>
+        <ListItem button>
+          <a href="#">Facebook</a>
+        </ListItem>
+        <ContactModal />
       </List>
     </div>
   );
@@ -93,7 +70,6 @@ export default function TemporaryDrawer() {
       <List>
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
           <ListItem button key={text}>
-        
             <ListItemText primary={text} />
           </ListItem>
         ))}
@@ -102,7 +78,6 @@ export default function TemporaryDrawer() {
       <List>
         {["All mail", "Trash", "Spam"].map((text, index) => (
           <ListItem button key={text}>
-      
             <ListItemText primary={text} />
           </ListItem>
         ))}
@@ -112,10 +87,12 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={toggleDrawer("right", true)} className="menu-btn">Menu</Button>
+      <Button onClick={toggleDrawer("right", true)} className="menu-btn">
+        Menu
+      </Button>
       <Drawer
         anchor="right"
-        open={state.right}
+        open={drawer.right}
         onClose={toggleDrawer("right", false)}
       >
         {sideList("right")}
