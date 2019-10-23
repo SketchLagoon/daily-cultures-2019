@@ -134,7 +134,7 @@ ul {
 }
 
 .dottedLine {
-  width: 85%;
+  /* width: 85%; */
   border: 5px dotted;
   border-style: none none dotted;
 }
@@ -144,6 +144,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.productInfo{
+  width: 80%;
 }
 
 .cultures > div,
@@ -232,6 +236,7 @@ ul {
   color: #3cb4e5;
 }
 
+
 @media only screen and (max-width: 1280px) {
   .App-header {
     min-height: 102vh;
@@ -311,6 +316,8 @@ ul {
   }
 
   .footer {
+    height: 30vh;
+    overflow:hidden;
     flex-direction: column-reverse !important;
   }
   .socials {
@@ -320,11 +327,11 @@ ul {
 
 @media only screen and (max-width: 415px) {
   .listTitle h2 {
-    font-size: 30px;
+    font-size: 25px !important;
     margin-bottom: 0;
 }
 .listTitle h1 {
-  font-size: 50px;
+  font-size: 40px !important;
   margin-bottom: .5em;
 }
 .aboutDC {
@@ -346,6 +353,9 @@ ul {
   text-align: left;
   font-size: 25px;
   margin-bottom: 0;
+}
+#ListFix {
+  margin-top: 0vh;
 }
 .smart {
   font-size: 40px;
@@ -382,6 +392,9 @@ ul {
 .titleBtn a {
   width: 175px !important;
   text-align: center;
+}
+.dottedLine {
+  width: 85%;
 }
 }
 

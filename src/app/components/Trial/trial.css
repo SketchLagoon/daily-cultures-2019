@@ -1,61 +1,70 @@
 .trialBox {
-    width: 100%;
-    margin-top: 5vh;
+  width: 100%;
+  margin-top: 5vh;
 }
 .productTrial {
-    width: 80%;
-    margin-top: 15vh;
+  width: 80%;
+  margin-top: 15vh;
 }
 .listTitle h1 {
-    color: #bce4fa;
-    font-size: 75px;
-    margin-top: 3vh;
+  color: #bce4fa;
+  font-size: 75px;
+  margin-top: 3vh;
 }
-#DC{
-   color: #B32572;
+#DC {
+  color: #b32572;
 }
 #lifestyle {
-    color: #3CB4E5;
+  color: #3cb4e5;
 }
 .buyMe {
-    padding: 5px 15px 5px 15px;
-    background-color: #B32572;
-    border-radius: 10px;
-    color: white;
-    font-size: 40px;
-    margin-left: 25px;
+  padding: 5px 15px 5px 15px;
+  background-color: #b32572;
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  margin-left: 25px;
 }
-.trialBoxBuyMe p, .trialBoxBuyMe h1, .trialBoxBuyMe a {
-    text-align: right !important;
-    display: inline;
+.trialBoxBuyMe p,
+.trialBoxBuyMe h1,
+.trialBoxBuyMe a {
+  text-align: right !important;
+  display: inline;
 }
 
 .trialBoxBuyMe {
-    margin-bottom: 10vh;
+  margin-bottom: 10vh;
 }
 
-#trialBoxDesc{
-    margin-bottom: 10vh;
-    height: auto;
-    margin-left: 5vw;
+#trialBoxDesc {
+  margin-bottom: 10vh;
+  height: auto;
+  margin-left: 5vw;
 }
 
 .listContainer li img {
-    height: 60%;
+  height: 60%;
 }
 
 #trialProducts {
-    background-color: #B32572;
+  background-color: #b32572;
 }
 
 #trialCultures {
-    background-color: #3CB4E5;
+  background-color: #3cb4e5;
 }
 
-#trialIntroDC{
-    color: #b32572;
-  }
+#trialIntroDC {
+  color: #b32572;
+}
 
-  .introDCTrial {
-      color: #EC660D !important;
-  }
+.introDCTrial {
+  color: #ec660d !important;
+}
+
+@media only screen and (max-width: 1280px) { 
+    #trialBoxDesc {
+        width: 85%;
+    }
+}
+
