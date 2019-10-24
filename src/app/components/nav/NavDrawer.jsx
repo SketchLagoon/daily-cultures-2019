@@ -6,6 +6,7 @@ import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import Icon from '@material-ui/core/Icon';
 
 import ContactModal from "../contact/ContactModal";
 
@@ -88,7 +89,7 @@ export default function NavDrawer() {
   return (
     <div>
       <Button onClick={toggleDrawer("right", true)} className="menu-btn">
-        Menu
+      <Icon>menu</Icon>
       </Button>
       <Drawer
         anchor="right"
