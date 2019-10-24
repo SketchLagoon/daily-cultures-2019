@@ -1,6 +1,6 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Modal from "@material-ui/core/Modal";
 import ListItem from "@material-ui/core/ListItem";
 
 function getModalStyle() {
@@ -10,19 +10,20 @@ function getModalStyle() {
   return {
     top: `${top}%`,
     left: `${left}%`,
-    transform: `translate(-${top}%, -${left}%)`,
+    transform: `translate(-${top}%, -${left}%)`
   };
 }
 
 const useStyles = makeStyles(theme => ({
   paper: {
-    position: 'absolute',
+    position: "absolute",
     width: 400,
     backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-  },
+    border: "none",
+    borderRadius: "10px;",
+    boxShadow: "none !important",
+    padding: theme.spacing(2, 4, 3)
+  }
 }));
 
 export default function ContactModal() {
@@ -41,10 +42,8 @@ export default function ContactModal() {
 
   return (
     <div>
-        <ListItem button> 
-      <a onClick={handleOpen}>
-        Contact
-      </a>
+      <ListItem button>
+        <a onClick={handleOpen}>Contact</a>
       </ListItem>
       <Modal
         aria-labelledby="simple-modal-title"
@@ -53,10 +52,27 @@ export default function ContactModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
-          <p id="simple-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </p>
+          <form action="https://formspree.io/info@dailycultures.com" method="POST">
+            <input
+              className="nameInput"
+              placeholder="Name"
+              type="text"
+              name="name"
+            />
+            <input
+              className="emailInput"
+              placeholder="Email"
+              type="email"
+              name="_replyto"
+            />
+            <input
+              id="message"
+              placeholder="Message..."
+              type="text"
+              name="message"
+            />
+            <input type="submit" value="Send" />
+          </form>
         </div>
       </Modal>
     </div>

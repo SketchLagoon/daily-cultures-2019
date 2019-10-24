@@ -67,7 +67,7 @@ function Science() {
                 better than others
               </h2>
               <ul className="listContainer">
-                <li>
+                <li className="scienceListItem">
                   <img src={one} className="one" />
                   <p>
                     Our uique smart cultures are{" "}
@@ -76,7 +76,7 @@ function Science() {
                     stomach acid
                   </p>
                 </li>
-                <li>
+                <li className="scienceListItem">
                   <img src={two} className="two" />
                   <p>
                     This means they arrive safely in the gut where they 'come
@@ -87,7 +87,7 @@ function Science() {
                     </span>
                   </p>
                 </li>
-                <li>
+                <li className="scienceListItem">
                   <img src={three} className="three" />
                   <p>
                     Our extraordinary smart cultures are natural with no need
@@ -96,7 +96,7 @@ function Science() {
                     survive and they have a surprisingly long shelf life.
                   </p>
                 </li>
-                <li>
+                <li className="scienceListItem">
                   <img src={four} className="four" />
                   <p>
                     And amazingly,{" "}
@@ -297,12 +297,6 @@ function Science() {
                   </div>
                 </div>
               </div>
-
-              <div className="titleBtn">
-                <h2>have more questions?</h2>
-                <a id="science-contact">Contact us</a>
-              </div>
-              <div className="dottedLine dottedLine2"></div>
             </div>
             </Container>
           </Grid>

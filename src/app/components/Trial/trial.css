@@ -68,3 +68,21 @@
     }
 }
 
+@media only screen and (max-width: 960px) { 
+  .MuiGrid-root {
+    overflow: visible;
+}
+}
+
+@media only screen and (max-width: 415px) { 
+  .MuiGrid-root {
+    overflow: hidden;
+}
+.trialListItem{
+  margin-top: 14vh !important;
+}
+.listContainer li img {
+  height: 50px !important;
+}
+}
+

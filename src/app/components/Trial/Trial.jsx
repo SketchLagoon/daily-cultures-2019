@@ -52,35 +52,35 @@ function Trial() {
               </div>
               <br></br>
               <ul className="listContainer" id="ListFix">
-                <li>
+                <li className="trialListItem">
                   <img src={check} className="check" />
                   <p>
                     All our products are packed full of uniquely effective smart
                     cultures that survive stomach acid to reach the gut alive.
                   </p>
                 </li>
-                <li>
+                <li className="trialListItem">
                   <img src={check} className="check" />
                   <p>
                     Come in a variety of convenient product formats to suit your
                     lifestyle that can be used everyday.
                   </p>
                 </li>
-                <li>
+                <li className="trialListItem">
                   <img src={check} className="check" />
                   <p>
                     Can be easily consumed throughout the day as part of your
                     normal daily dietary routine.
                   </p>
                 </li>
-                <li>
+                <li className="trialListItem">
                   <img src={check} className="check" />
                   <p>
                     Our products taste great, are healthy and wholesome, made
                     from only 100% natural ingredients.
                   </p>
                 </li>
-                <li>
+                <li className="trialListItem">
                   <img src={check} className="check" />
                   <p>
                     Are suitable for Vegetarians and Vegans, so importantly
@@ -105,7 +105,7 @@ function Trial() {
               <div className="trialBoxBuyMe">
                 <p>only</p>
                 <h1>£2.99</h1>
-                <a className="buyMe">Buy me</a>
+                <a className="buyMe" href="https://daily-cultures.myshopify.com/cart/30293909045310:1?channel=buy_button">Buy me</a>
               </div>
             </Container>
           </Grid>

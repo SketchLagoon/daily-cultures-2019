@@ -12,7 +12,12 @@ h1, h2, a {
   font-family: clarendon-text-pro, serif;
   font-weight: 500 !important;
 }
-
+.MuiDrawer-paperAnchorRight {
+  background-color: #f59e00 !important;
+}
+.MuiList-root{
+color: white !important;
+}
 .MuiGrid-root {
   overflow: hidden;
 }
@@ -45,7 +50,7 @@ h1, h2, a {
 
 .intro-img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .img-grid {
@@ -92,7 +97,8 @@ ul {
 .listTitle h1 {
   color: #bce4fa;
   font-size: 75px;
-  margin-top: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .listTitle h2 {
@@ -170,7 +176,7 @@ ul {
 
 .aboutDC {
   width: 90%;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 3%;
   margin-top: 5%;
   text-align: left;
@@ -227,6 +233,7 @@ ul {
 
 #homeIntroDC{
   color: #b32572;
+  font-size: 55px;
 }
 
 #homeDigestiveHealth {
@@ -235,6 +242,32 @@ ul {
 
 .socials {
   color: #3cb4e5;
+}
+
+form > input {
+  width: 90%;
+  margin: 5% auto;
+  /* margin-top: 5%; */
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  color: black;
+
+}
+
+form {
+  padding: 20px 25px 20px 25px;
+  color: black;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #79748d;
+  border-radius: 10px;
+  width: 100% !important;
+  border: none;
 }
 
 
@@ -299,6 +332,10 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+  .intro-img {
+    width: 100%;
+    height: 100%;
+}
   #ListFix {
     margin-top: 10vh;
   }
@@ -317,7 +354,6 @@ ul {
   }
 
   .footer {
-    height: 30vh;
     overflow:hidden;
     flex-direction: column-reverse !important;
   }
@@ -363,8 +399,12 @@ ul {
   font-weight: 500;
   color: #ed5ea7;
 }
+.homeListItem {
+  margin-bottom: 0 !important;
+}
 .listContainer li {
  margin-top: 5vh;
+ margin-bottom: 0;
 }
 .listContainer {
   margin: 0 0 0 0;
@@ -377,8 +417,7 @@ ul {
   font-size: 3em;
 }
 .navTitle {
-  font-size: 50px;
-
+  font-size: 45px;
 }
 .subtext {
   font-size: 20px;

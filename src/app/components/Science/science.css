@@ -27,12 +27,12 @@
     font-size: 25px;
     margin-bottom: 0;
 }
-.listContainer li {
-    height: 100px;
-    margin-bottom: 50px;
-    width: 90%;
-    text-align: left;
-    font-size: 25px;
+.scienceListItem {
+    height: 100px !important;
+    margin-bottom: 50px !important;
+    width: 90% !important;
+    text-align: left !important;
+    font-size: 25px !important;
 }
 .listContainer li img {
     margin: 1.1em 0 1.1em 1.2em;
@@ -63,7 +63,6 @@
     background-color: #b32572;
     color: white;
 }
-
 .faq {
     width: 90%;
     margin: 0 7% 0 3%;
@@ -151,8 +150,9 @@
     color: #F7AB59;
   }
   .scienceDC {
-      color: #B32572 !important;
-  }
+    color: #B32572 !important;
+   
+}
 
 @media only screen and (max-width: 1280px) {
     .listContainer li img {
@@ -177,7 +177,7 @@
     }
     .listTitle h1 {
         color: #bce4fa;
-        font-size: 50px;
+        font-size: 50px !important;
         margin-top: 0;
     }
     .listTitle h2 {
@@ -212,6 +212,9 @@
     }
     .titleBtn a {
         margin-left: 15%;
+    }
+    .scienceDC {
+        font-size: 55px !important;
     }
 }
 

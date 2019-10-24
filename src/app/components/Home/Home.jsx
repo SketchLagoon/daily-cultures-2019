@@ -111,35 +111,35 @@ function Home() {
               </div>
               <br></br>
               <ul className="listContainer" id="ListFix">
-                <li>
+                <li className="homeListItem">
                   <img src={check} className="check" />
                   <p>
                     Aids the bodies natural metabolism process through increased
                     protein utilisation.
                   </p>
                 </li>
-                <li>
+                <li className="homeListItem">
                   <img src={check} className="check" />
                   <p>
                     Supports positive mental health and well-being via the gut
                     brain axis.
                   </p>
                 </li>
-                <li>
+                <li className="homeListItem">
                   <img src={check} className="check" />
                   <p>
                     Can increase happiness levels as the majority of the
                     serotonin hormone is produced in the gut
                   </p>
                 </li>
-                <li>
+                <li className="homeListItem">
                   <img src={check} className="check" />
                   <p>
                     Good digestive health reduces muscle fatigue and the
                     feelings of lethargy.
                   </p>
                 </li>
-                <li>
+                <li className="homeListItem">
                   <img src={check} className="check" />
                   <p>
                     A happy, healthy gut is proven to help support the immune

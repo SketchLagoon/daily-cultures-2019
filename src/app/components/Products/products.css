@@ -201,25 +201,13 @@
     width: 95%;
   }
   .titleBtn a {
-    margin-left: 36%;
+    float: right;
   }
   .titleBtn1 a {
-    margin-left: 31%;
+    float: right;
   }
   .titleBtn2 a {
-    margin-left: 28%;
-  }
-  #buyPorridge {
-    margin-left: 37%;
-  }
-  .titleBtn a {
-    float: none;
-  }
-  .titleBtn1 a {
-    float: none;
-  }
-  .titleBtn2 a {
-    float: none;
+    float: right;
   }
 }
 
@@ -227,18 +215,18 @@
   #subtitle {
     margin: 0;
     text-align: left;
-    padding: 30px;
+    padding: 15px;
     font-size: 25px;
     margin-bottom: 0;
   }
   .titleBtn a {
-    margin-left: 23%;
+    float: none;
   }
   .titleBtn1 a {
-    margin-left: 16%;
+    float: none;
   }
   .titleBtn2 a {
-    margin-left: 12%;
+    float: none;
   }
   .listTitle {
     margin-top: 22%;
@@ -255,8 +243,8 @@
 
 @media only screen and (max-width: 415px) {
   .navTitle {
-    font-size: 49px;
-  }
+    font-size: 45px;
+}
   .titleBtn a {
     width: 150px;
     text-align: center;
