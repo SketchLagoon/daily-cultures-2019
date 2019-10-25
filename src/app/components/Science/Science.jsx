@@ -135,7 +135,7 @@ function Science() {
         {/* faq */}
         <Grid container>
           <Grid item xs={12} sm={12} md={6}>
-            <img src={mugGrin} className="intro-img" alt="simply gut happy" />
+            <img src={mugGrin} className="intro-img intro-img-cup" alt="simply gut happy" />
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
             <Container>
