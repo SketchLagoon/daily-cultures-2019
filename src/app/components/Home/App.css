@@ -4,6 +4,7 @@ text-decoration: none; }
 body {
   background-color: #f7f3f4;
 }
+
 p {
   font-family: "Avenir" !important;
   font-weight: 510;
@@ -13,12 +14,15 @@ h1, h2, a {
   font-family: clarendon-text-pro, serif;
   font-weight: 500 !important;
 }
+
 .MuiDrawer-paperAnchorRight {
   background-color: #f59e00 !important;
 }
+
 .MuiList-root{
 color: white !important;
 }
+
 .MuiGrid-root {
   overflow: hidden;
 }
@@ -37,8 +41,6 @@ color: white !important;
 .App-header {
   min-height: 100vh;
   display: flex;
-  /* toggle this for mobile layout */
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -262,7 +264,6 @@ form > input {
   border-bottom: 1px solid black;
   padding: 10px;
   color: black;
-
 }
 
 form {
