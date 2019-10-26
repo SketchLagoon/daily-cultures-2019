@@ -1,5 +1,6 @@
 .cameos {
   height: 100vh;
+  margin-top: 10vh;
   display: flex;
   /* toggle this for mobile layout */
   /* flex-direction: column; */
