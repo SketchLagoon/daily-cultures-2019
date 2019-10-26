@@ -6,7 +6,7 @@ import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import Icon from '@material-ui/core/Icon';
+import Icon from "@material-ui/core/Icon";
 
 import ContactModal from "../contact/ContactModal";
 
@@ -56,7 +56,9 @@ export default function NavDrawer() {
         <ListItem button>
           <a href="https://www.facebook.com/DailyCultures/">Facebook</a>
         </ListItem>
-        <ContactModal />
+        <ListItem>
+          <ContactModal contactText={"contact"} />
+        </ListItem>
       </List>
     </div>
   );
@@ -89,7 +91,7 @@ export default function NavDrawer() {
   return (
     <div>
       <Button onClick={toggleDrawer("right", true)} className="menu-btn">
-      <Icon>menu</Icon>
+        <Icon>menu</Icon>
       </Button>
       <Drawer
         anchor="right"

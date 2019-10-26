@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function ContactModal() {
+export default function ContactModal({ contactText,  }) {
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
@@ -41,10 +41,8 @@ export default function ContactModal() {
   };
 
   return (
-    <div>
-      <ListItem button>
-        <a onClick={handleOpen}>Contact</a>
-      </ListItem>
+    <>
+      <a onClick={handleOpen}>{contactText}</a>
       <Modal
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
@@ -52,7 +50,10 @@ export default function ContactModal() {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <form action="https://formspree.io/info@dailycultures.com" method="POST">
+          <form
+            action="https://formspree.io/info@dailycultures.com"
+            method="POST"
+          >
             <input
               className="nameInput"
               placeholder="Name"
@@ -75,6 +76,6 @@ export default function ContactModal() {
           </form>
         </div>
       </Modal>
-    </div>
+    </>
   );
 }

@@ -208,6 +208,14 @@ ul {
 .fab {
   padding: 50px 50px 50px 0px;
 }
+.contact-icon {
+  padding: 50px 50px 50px 0px;
+}
+
+.contact-btn{
+  display: none;
+}
+
 .legal {
   width: 90%;
 }

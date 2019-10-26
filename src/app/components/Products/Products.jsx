@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import logo from "./logo.png";
 import gutText from "./text.png";
 import introImg from "./left-half-1.png";
@@ -11,6 +11,13 @@ import pack2 from "./pack2.png";
 import mascot from "../Home/footer/twinkles.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+
+import ContactModal from "../contact/ContactModal";
+import ScrollDialog from '../ScrollDialog';
+
+import { terms } from '../../data/terms'
+import { privacy } from '../../data/privacy'
+
 import "../Home/App.css";
 import "./products.css";
 
@@ -105,7 +112,12 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn1">
                 <h2>fuel your morning</h2>
-                <a id="buyPorridge" href="https://www.amazon.co.uk/Daily-Cultures-Porridge-Packs-Sachets/dp/B074DYVMKQ?ref_=ast_sto_dp">Buy me</a>
+                <a
+                  id="buyPorridge"
+                  href="https://www.amazon.co.uk/Daily-Cultures-Porridge-Packs-Sachets/dp/B074DYVMKQ?ref_=ast_sto_dp"
+                >
+                  Buy me
+                </a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
@@ -138,7 +150,9 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn1">
                 <h2>make time for a brew</h2>
-                <a href="https://www.amazon.co.uk/Daily-Cultures-Breakfast-Tea-Packs/dp/B0798P9RFC?ref_=ast_sto_dp">Buy me</a>
+                <a href="https://www.amazon.co.uk/Daily-Cultures-Breakfast-Tea-Packs/dp/B0798P9RFC?ref_=ast_sto_dp">
+                  Buy me
+                </a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
@@ -172,7 +186,9 @@ function Products() {
             <div className="productInfo">
               <div className="titleBtn2">
                 <h2>stay ready for anything</h2>
-                <a href="https://www.amazon.co.uk/stores/page/F8728F12-2EFA-489A-BA63-0A449384ABAE?ingress=3">Buy me</a>
+                <a href="https://www.amazon.co.uk/stores/page/F8728F12-2EFA-489A-BA63-0A449384ABAE?ingress=3">
+                  Buy me
+                </a>
               </div>
               <div className="dottedLine"></div>
               <p className="productDesc">
@@ -229,15 +245,22 @@ function Products() {
               <h1 id="productsIntroDC">Then say hello</h1>
               <div className="dottedLine"></div>
               <div className="socials">
-                <i className="fab fa-instagram"></i>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="far fa-envelope"></i>
+                <a href="https://www.instagram.com/daily_cultures_/">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/DailyCultures/">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/DailyCultures">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <ContactModal contactText={<i className="far fa-envelope" />} />
               </div>
               <div className="legal">
                 <p>©Daily Cultures Limited. 2019</p>
-                <p className="right">Privacy.</p>
-                <p className="right">Terms.</p>
+                <ScrollDialog name="Terms." header="Terms" body={terms}/>
+                <ScrollDialog name="Privacy." header="Privacy" body={privacy}/>
+                {/* <TextModal name={<p className="right">Privacy.</p>} header={"Privacy"} body={privacy}/> */}
               </div>
             </div>
           </Grid>
