@@ -11,7 +11,7 @@ import four from "./4.png";
 import mascot from "../Home/footer/twinkles.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Container from '@material-ui/core/Container';
+import Container from "@material-ui/core/Container";
 import "../Home/App.css";
 import "./science.css";
 
@@ -63,7 +63,10 @@ function Science() {
               </div>
               <br></br>
               <h2 id="subtitle">
-                What makes our <span className="smart" id="scienceSmart">smart cultures </span> 
+                What makes our{" "}
+                <span className="smart" id="scienceSmart">
+                  smart cultures{" "}
+                </span>
                 better than others
               </h2>
               <ul className="listContainer">
@@ -135,169 +138,177 @@ function Science() {
         {/* faq */}
         <Grid container>
           <Grid item xs={12} sm={12} md={6}>
-            <img src={mugGrin} className="intro-img intro-img-cup" alt="simply gut happy" />
+            <img
+              src={mugGrin}
+              className="intro-img intro-img-cup"
+              alt="simply gut happy"
+            />
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
             <Container>
-            <div className="introTxt">
-              <div className="listTitle">
-                <h2>common questions about</h2>
-                <h1 id="introDC" className="scienceDC">Daily Cultures</h1>
-                <div className="dottedLine"></div>
-              </div>
-              <br></br>
+              <div className="introTxt">
+                <div className="listTitle">
+                  <h2>common questions about</h2>
+                  <h1 id="introDC" className="scienceDC">
+                    Daily Cultures
+                  </h1>
+                  <div className="dottedLine"></div>
+                </div>
+                <br></br>
 
-              <div className="faq">
-                <div className="questionBox">
-                  <div className="question">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>Q:</p>
-                        </div>
+                <div className="faq">
+                  <div className="questionBox">
+                    <div className="question">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>Q:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p className="questionBold">
+                              What are the cultures in your products?
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p className="questionBold">What are the cultures in your products?</p>
-                        </div>
+                    </div>
+                    <div className="answer">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>A:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p>
+                              <span className="answerBold">
+                                Cultures are more commonly known as probiotics.
+                              </span>{" "}
+                              They are live micro-organisms, which, when taken
+                              in adequate amounts offer health benefits... We
+                              also call probiotics 'good' or 'friendly' bacteria
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                    </Grid>
+                    </div>
                   </div>
-                  <div className="answer">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>A:</p>
-                        </div>
+                  <div className="questionBox">
+                    <div className="question">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>Q:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p className="questionBold">
+                              Will it taste like my normal food and drink?
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p>
-                            <span className="answerBold">
-                              Cultures are more commonly known as probiotics.
-                            </span>{" "}
-                            They are live micro-organisms, which, when taken in
-                            adequate amounts offer health benefits... We also
-                            call probiotics 'good' or 'friendly' bacteria
-                          </p>
-                        </div>
+                    </div>
+                    <div className="answer">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>A:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p>
+                              <span className="answerBold">Yes.</span> Our
+                              products taste just like normal. The good bacteria
+                              we use is taste free, so the natural, delicious
+                              taste is 100% unaffected.
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                    </Grid>
+                    </div>
                   </div>
-                </div>
-                <div className="questionBox">
-                  <div className="question">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>Q:</p>
-                        </div>
+                  <div className="questionBox">
+                    <div className="question">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>Q:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p className="questionBold">
+                              Can the cultures survive boiling water and
+                              microwave?
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p className="questionBold">
-                            Will it taste like my normal food and drink?
-                          </p>
-                        </div>
+                    </div>
+                    <div className="answer">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>A:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p>
+                              <span className="answerBold">Yes.</span> Our
+                              cultures are encased in a 100% natural protective
+                              shell. This shields them from harsh conditions
+                              like heat or stomach acid.
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                    </Grid>
+                    </div>
                   </div>
-                  <div className="answer">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>A:</p>
-                        </div>
+                  <div className="questionBox">
+                    <div className="question">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>Q:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p className="questionBold">
+                              Can I have more than one portion a day?
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p>
-                            <span className="answerBold">Yes.</span> Our
-                            products taste just like normal. The good bacteria
-                            we use is taste free, so the natural, delicious
-                            taste is 100% unaffected.
-                          </p>
-                        </div>
+                    </div>
+                    <div className="answer">
+                      <Grid container className="">
+                        <Grid item lg={1}>
+                          <div className="label">
+                            <p>A:</p>
+                          </div>
+                        </Grid>
+                        <Grid item lg={11} sm={12}>
+                          <div className="detail">
+                            <p>
+                              <span className="answerBold">Yes.</span> Have as
+                              much as you like. Your body can never have enough
+                              good bacteria!
+                            </p>
+                          </div>
+                        </Grid>
                       </Grid>
-                    </Grid>
-                  </div>
-                </div>
-                <div className="questionBox">
-                  <div className="question">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>Q:</p>
-                        </div>
-                      </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p className="questionBold">
-                            Can the cultures survive boiling water and
-                            microwave?
-                          </p>
-                        </div>
-                      </Grid>
-                    </Grid>
-                  </div>
-                  <div className="answer">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>A:</p>
-                        </div>
-                      </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p>
-                            <span className="answerBold">Yes.</span> Our
-                            cultures are encased in a 100% natural protective
-                            shell. This shields them from harsh conditions like
-                            heat or stomach acid.
-                          </p>
-                        </div>
-                      </Grid>
-                    </Grid>
-                  </div>
-                </div>
-                <div className="questionBox">
-                  <div className="question">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>Q:</p>
-                        </div>
-                      </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p className="questionBold">
-                            Can I have more than one portion a day?
-                          </p>
-                        </div>
-                      </Grid>
-                    </Grid>
-                  </div>
-                  <div className="answer">
-                    <Grid container className="">
-                      <Grid item lg={1}>
-                        <div className="label">
-                          <p>A:</p>
-                        </div>
-                      </Grid>
-                      <Grid item lg={11} sm={12}>
-                        <div className="detail">
-                          <p>
-                            <span className="answerBold">Yes.</span> Have as
-                            much as you like. Your body can never have enough
-                            good bacteria!
-                          </p>
-                        </div>
-                      </Grid>
-                    </Grid>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
             </Container>
           </Grid>
         </Grid>
@@ -321,38 +332,6 @@ function Science() {
                   Taster pack
                 </h1>
               </a>
-            </div>
-          </Grid>
-        </Grid>
-        {/* footer */}
-        <Grid container className="footer">
-          <Grid item xs={12} sm={12} md={6} className="footerMascot">
-            <img src={mascot} className="mascot" alt="footer mascot" />
-          </Grid>
-          <Grid item xs={12} sm={12} md={6} className="footerText">
-            <div className="listTitle">
-              <h2>are you gut happy?</h2>
-              <h1 id="scienceIntroDC">Then say hello</h1>
-              <div className="dottedLine"></div>
-              <div className="socials">
-                <a href="https://www.instagram.com/daily_cultures_/">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/DailyCultures/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/DailyCultures">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#contactModal">
-                  <i className="far fa-envelope"></i>
-                </a>
-              </div>
-              <div className="legal">
-                <p>©Daily Cultures Limited. 2019</p>
-                <p className="right">Privacy.</p>
-                <p className="right">Terms.</p>
-              </div>
             </div>
           </Grid>
         </Grid>

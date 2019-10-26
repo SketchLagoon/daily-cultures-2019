@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import NavDrawer from "./components/nav/NavDrawer";
+import Footer from './components/footer'
 
 import Home from "./components/Home/Home";
 import Products from "./components/Products/Products";
@@ -17,6 +18,7 @@ function App() {
       <Route path={"/trial"} component={Trial} />
       <Route exact path={"/home"} component={Home} />
       <Route exact path={"/"} component={Home} />
+      <Footer />
     </BrowserRouter>
   );
 }

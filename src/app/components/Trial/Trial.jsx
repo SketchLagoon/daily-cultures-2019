@@ -105,7 +105,12 @@ function Trial() {
               <div className="trialBoxBuyMe">
                 <p>only</p>
                 <h1>£2.99</h1>
-                <a className="buyMe" href="https://daily-cultures.myshopify.com/cart/30293909045310:1?channel=buy_button">Buy me</a>
+                <a
+                  className="buyMe"
+                  href="https://daily-cultures.myshopify.com/cart/30293909045310:1?channel=buy_button"
+                >
+                  Buy me
+                </a>
               </div>
             </Container>
           </Grid>
@@ -157,30 +162,6 @@ function Trial() {
                   Cultures
                 </h1>
               </a>
-            </div>
-          </Grid>
-        </Grid>
-        {/* footer */}
-        <Grid container className="footer">
-          <Grid item xs={12} sm={12} md={6} className="footerMascot">
-            <img src={mascot} className="mascot" alt="footer mascot" />
-          </Grid>
-          <Grid item xs={12} sm={12} md={6} className="footerText">
-            <div className="listTitle">
-              <h2>are you gut happy?</h2>
-              <h1 id="trialIntroDC">Then say hello</h1>
-              <div className="dottedLine"></div>
-              <div className="socials">
-                <i className="fab fa-instagram"></i>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="far fa-envelope"></i>
-              </div>
-              <div className="legal">
-                <p>©Daily Cultures Limited. 2019</p>
-                <p className="right">Privacy.</p>
-                <p className="right">Terms.</p>
-              </div>
             </div>
           </Grid>
         </Grid>

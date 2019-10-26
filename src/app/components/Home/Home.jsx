@@ -28,7 +28,6 @@ function Home() {
 
   return (
     <div className="App">
-      
       <div className={classes.root}>
         {/* header */}
         <Grid className="App-header" container>
@@ -177,30 +176,6 @@ function Home() {
                   Cultures
                 </h1>
               </a>
-            </div>
-          </Grid>
-        </Grid>
-        {/* footer */}
-        <Grid container className="footer">
-          <Grid item xs={12} sm={12} md={6} className="footerMascot">
-            <img src={mascot} className="mascot" alt="footer mascot" />
-          </Grid>
-          <Grid item xs={12} sm={12} md={6} className="footerText">
-            <div className="listTitle">
-              <h2>are you gut happy?</h2>
-              <h1 id="homeIntroDC">Then say hello</h1>
-              <div className="dottedLine"></div>
-              <div className="socials">
-                <i className="fab fa-instagram"></i>
-                <i className="fab fa-facebook-f"></i>
-                <i className="fab fa-twitter"></i>
-                <i className="far fa-envelope"></i>
-              </div>
-              <div className="legal">
-                <p>©Daily Cultures Limited. 2019</p>
-                <p className="right">Privacy.</p>
-                <p className="right">Terms.</p>
-              </div>
             </div>
           </Grid>
         </Grid>

@@ -20,8 +20,10 @@ export default function ScrollDialog({ name, header, body }) {
   };
 
   return (
-    <div>
-      <Button className="right" onClick={handleClickOpen("paper")}>{name}</Button>
+    <>
+      <Button className="right" onClick={handleClickOpen("paper")}>
+        {name}
+      </Button>
       <Dialog
         open={open}
         onClose={handleClose}
@@ -38,6 +40,6 @@ export default function ScrollDialog({ name, header, body }) {
           </Button>
         </DialogActions>
       </Dialog>
-    </div>
+    </>
   );
 }
