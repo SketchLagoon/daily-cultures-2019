@@ -1,5 +1,7 @@
-a { color: inherit;
-text-decoration: none; } 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 body {
   background-color: #f7f3f4;
@@ -10,17 +12,23 @@ p {
   font-weight: 510;
 }
 
-h1, h2, a {
+h1,
+h2,
+a {
   font-family: clarendon-text-pro, serif;
   font-weight: 500 !important;
+}
+
+.hand {
+  cursor: pointer;
 }
 
 .MuiDrawer-paperAnchorRight {
   background-color: #f59e00 !important;
 }
 
-.MuiList-root{
-color: white !important;
+.MuiList-root {
+  color: white !important;
 }
 
 .MuiGrid-root {
@@ -92,7 +100,7 @@ ul {
   margin-top: 10%;
   margin-left: 3%;
   height: 20%;
-  width:95%;
+  width: 95%;
   text-align: left;
 }
 
@@ -155,7 +163,7 @@ ul {
   justify-content: center;
 }
 
-.productInfo{
+.productInfo {
   width: 80%;
 }
 
@@ -215,7 +223,7 @@ ul {
   padding: 50px 50px 50px 0px;
 }
 
-.contact-btn{
+.contact-btn {
   display: none;
 }
 
@@ -241,13 +249,13 @@ ul {
   background-color: #3cb4e5;
 }
 
-#homeIntroDC{
+#homeIntroDC {
   color: #b32572;
   font-size: 55px;
 }
 
 #homeDigestiveHealth {
-  color: #3CB4E5;
+  color: #3cb4e5;
 }
 
 .socials {
@@ -279,7 +287,6 @@ input[type="submit"] {
   border: none;
 }
 
-
 @media only screen and (max-width: 1280px) {
   .App-header {
     min-height: 102vh;
@@ -296,8 +303,7 @@ input[type="submit"] {
   }
   .smart {
     font-size: 35px;
- 
-}
+  }
 
   .fab,
   .far {
@@ -317,7 +323,7 @@ input[type="submit"] {
   }
   #subtitle {
     font-size: 25px;
-}
+  }
 }
 
 @media only screen and (max-width: 960px) {
@@ -343,7 +349,7 @@ input[type="submit"] {
 @media only screen and (max-width: 600px) {
   .intro-img {
     width: 100%;
-}
+  }
   #ListFix {
     margin-top: 10vh;
   }
@@ -362,7 +368,7 @@ input[type="submit"] {
   }
 
   .footer {
-    overflow:hidden;
+    overflow: hidden;
     flex-direction: column-reverse !important;
   }
   .socials {
@@ -374,75 +380,72 @@ input[type="submit"] {
   .listTitle h2 {
     font-size: 25px !important;
     margin-bottom: 0;
+  }
+  .listTitle h1 {
+    font-size: 40px !important;
+    margin-bottom: 0.5em;
+  }
+  .aboutDC {
+    width: 90vw;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: 3%;
+  }
+  .listTitle {
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 20%;
+    width: 100%;
+    text-align: left;
+  }
+  #subtitle {
+    margin-left: 6%;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  #ListFix {
+    margin-top: 0vh;
+  }
+  .smart {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ed5ea7;
+  }
+  .homeListItem {
+    margin-bottom: 0 !important;
+  }
+  .listContainer li {
+    margin-top: 5vh;
+    margin-bottom: 0;
+  }
+  .listContainer {
+    margin: 0 0 0 0;
+  }
+  .footer {
+    margin-top: 10vh;
+  }
+  .fab,
+  .far {
+    font-size: 3em;
+  }
+  .navTitle {
+    font-size: 45px;
+  }
+  .subtext {
+    font-size: 20px;
+  }
+  .products div {
+    padding: 15px;
+  }
+  .cultures div {
+    padding: 15px;
+  }
+  .titleBtn a {
+    width: 175px !important;
+    text-align: center;
+  }
+  .dottedLine {
+    width: 85%;
+  }
 }
-.listTitle h1 {
-  font-size: 40px !important;
-  margin-bottom: .5em;
-}
-.aboutDC {
-  width: 90vw;
-  padding: 15px;
-  font-size: 25px;
-  margin-left: 3%;
-
-}
-.listTitle {
-  margin-top: 10%;
-  margin-left: 5%;
-  height: 20%;
-  width: 100%;
-  text-align: left;
-}
-#subtitle {
-  margin-left: 6%;
-  text-align: left;
-  font-size: 25px;
-  margin-bottom: 0;
-}
-#ListFix {
-  margin-top: 0vh;
-}
-.smart {
-  font-size: 40px;
-  font-weight: 500;
-  color: #ed5ea7;
-}
-.homeListItem {
-  margin-bottom: 0 !important;
-}
-.listContainer li {
- margin-top: 5vh;
- margin-bottom: 0;
-}
-.listContainer {
-  margin: 0 0 0 0;
-}
-.footer {
-  margin-top: 10vh;
-  
-}
-.fab, .far {
-  font-size: 3em;
-}
-.navTitle {
-  font-size: 45px;
-}
-.subtext {
-  font-size: 20px;
- 
-}
-.products div {
-  padding: 15px;
-}
-.cultures div {
-  padding: 15px;
-}
-.titleBtn a {
-  width: 175px !important;
-  text-align: center;
-}
-.dottedLine {
-  width: 85%;
-}
-}
-

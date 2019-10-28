@@ -31,7 +31,7 @@ const Footer = () => (
           <a href="https://twitter.com/DailyCultures">
             <i className="fab fa-twitter"></i>
           </a>
-          <ContactModal contactText={<i className="far fa-envelope" />} />
+          <ContactModal contactText={<i className="far fa-envelope hand" />} />
         </div>
         <div className="legal">
           <p>©Daily Cultures Limited. 2019</p>
