@@ -1,7 +1,8 @@
 .cameos {
   height: 100vh;
   margin-top: 10vh !important;
-  margin-bottom: 10vh !important;
+  padding-bottom: 5vh !important;
+  margin-bottom: 15vh !important;
   display: flex;
   /* toggle this for mobile layout */
   /* flex-direction: column; */
@@ -30,7 +31,6 @@
 .titleBtn,
 .titleBtn1,
 .titleBtn2 {
-
   margin-top: 2vh;
   margin-bottom: 1vh;
 }
@@ -246,7 +246,7 @@
 @media only screen and (max-width: 415px) {
   .navTitle {
     font-size: 45px;
-}
+  }
   .titleBtn a {
     width: 150px;
     text-align: center;
