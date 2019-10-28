@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/daily-cultures-2019/precache-manifest.4506b75a65050862152457eb5b304062.js"
+  "/daily-cultures-2019/precache-manifest.a0d3a56dd8470c8996d22114ab8710c4.js"
 );
 
 self.addEventListener('message', (event) => {
