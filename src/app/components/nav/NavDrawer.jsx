@@ -57,7 +57,7 @@ export default function NavDrawer() {
           <a href="https://www.facebook.com/DailyCultures/">Facebook</a>
         </ListItem>
         <ListItem>
-          <ContactModal contactText={"contact"} />
+          <ContactModal contactText={"Contact"} />
         </ListItem>
       </List>
     </div>
