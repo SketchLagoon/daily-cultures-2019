@@ -40,7 +40,7 @@ export default function NavDrawer() {
         {["Home", "Products", "Science", "Trial"].map((text, index) => (
           <a href={text}>
             <ListItem button key={text}>
-              <ListItemText primary={text} />
+              <ListItemText className="nav-font-fix" primary={text} />
             </ListItem>
           </a>
         ))}

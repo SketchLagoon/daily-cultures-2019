@@ -56,7 +56,7 @@ function Home() {
               </div>
               <br></br>
               <h2 id="subtitle">
-                The <span className="smart">smart</span> way to love your gut
+                The <span className="smart">smart</span> way to love your gut!
               </h2>
               <p className="aboutDC">
                 Daily Cultures has been specifically created to provide new and
@@ -65,7 +65,7 @@ function Home() {
                 <br></br>
                 Our range of products offer an effective way to help support and
                 maintain a healthy gut through everyday food and drinks that fit
-                conveniently into a persons normal daily routine.
+                conveniently into a person's normal daily routine.
                 <br></br>
                 <br></br>
                 By combining the power of our uniquely effective smart cultures
@@ -74,7 +74,7 @@ function Home() {
                 <br></br>
                 <br></br>
                 Daily Cultures really is the
-                <span className="smart2"> smart</span> way to love your gut
+                <span className="smart2"> smart</span> way to love your gut!
               </p>
             </div>
           </Grid>
@@ -128,7 +128,7 @@ function Home() {
                   <img src={check} className="check" />
                   <p>
                     Can increase happiness levels as the majority of the
-                    serotonin hormone is produced in the gut
+                    serotonin hormone is produced in the gut.
                   </p>
                 </li>
                 <li className="homeListItem">

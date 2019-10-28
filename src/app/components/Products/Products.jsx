@@ -60,13 +60,13 @@ function Products() {
               <h2 id="subtitle">
                 The convenience of our{" "}
                 <span className="smart" id="productsSmart">
-                  smart cultures
+                  smart cultures.
                 </span>
               </h2>
               <p className="aboutDC">
                 Our products contain only the best, natural ingredients,
-                providing you with healthy, and wholesome food and drinks
-                choices that can be enjoyed throughout the day.
+                providing you with healthy and wholesome food and drinks choices
+                that can be enjoyed throughout the day.
                 <br></br>
                 <br></br>
                 We recommend starting the day the 'right way' with a bowl of our
@@ -116,7 +116,7 @@ function Products() {
               <p className="productDesc">
                 with new Daily Cultures amazing wholegrain porridge. Packed with{" "}
                 <span className="smart3"> smart cultures</span> to help set up
-                the gut for the rest of the day
+                the gut for the rest of the day.
               </p>
               <h1 className="productTag">
                 {" "}
@@ -152,7 +152,7 @@ function Products() {
                 with new Daily Cultures delicious tasting breakfast and
                 peppermint teas. Packed with{" "}
                 <span className="smart4"> smart cultures</span> to help provide
-                a refreshing boost for your gut
+                a refreshing boost for your gut.
               </p>
               <h1 className="productTag2">
                 {" "}
@@ -188,7 +188,7 @@ function Products() {
                 with new Daily Cultures nourishing oat based cereal bars. Packed
                 with
                 <span className="smart5"> smart cultures</span> to help keep the
-                gut happy wherever you may be
+                gut happy wherever you may be.
               </p>
               <h1 className="productTag3">
                 {" "}

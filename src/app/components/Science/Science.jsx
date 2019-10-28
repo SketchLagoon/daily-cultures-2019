@@ -67,16 +67,16 @@ function Science() {
                 <span className="smart" id="scienceSmart">
                   smart cultures{" "}
                 </span>
-                better than others
+                better than others.
               </h2>
               <ul className="listContainer">
                 <li className="scienceListItem">
                   <img src={one} className="one" />
                   <p>
                     Our uique smart cultures are{" "}
-                    <span className="shell">protected by a natural shell</span>,
+                    <span className="shell">protected by a natural shell,</span>
                     which enables them to survive extremes of temperature and
-                    stomach acid
+                    stomach acid.
                   </p>
                 </li>
                 <li className="scienceListItem">
@@ -168,7 +168,7 @@ function Science() {
                         <Grid item lg={11} sm={12}>
                           <div className="detail">
                             <p className="questionBold">
-                              What are the cultures in your products?
+                              What are the cultures?
                             </p>
                           </div>
                         </Grid>
@@ -189,7 +189,8 @@ function Science() {
                               </span>{" "}
                               They are live micro-organisms, which, when taken
                               in adequate amounts offer health benefits... We
-                              also call probiotics 'good' or 'friendly' bacteria
+                              also call probiotics 'good' or 'friendly'
+                              bacteria.
                             </p>
                           </div>
                         </Grid>

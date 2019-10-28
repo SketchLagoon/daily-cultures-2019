@@ -118,7 +118,7 @@ function Trial() {
             <img src={product} alt="products" className="productTrial"></img>
 
             <div className="listTitle" id="trialBoxDesc">
-              <h1 id="DC">What's in the box</h1>
+              <h1 id="DC">What's in the box?</h1>
               <div className="dottedLine"></div>
               <p>1 Oat & Cranberry nourishing oat, fruit and seed bar</p>
               <p>1 Sachet of amazing wholegrain porridge</p>
