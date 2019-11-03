@@ -5,6 +5,11 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2
+} from "react-html-parser";
 
 export default function ScrollDialog({ name, header, body }) {
   const [open, setOpen] = React.useState(false);
@@ -32,7 +37,7 @@ export default function ScrollDialog({ name, header, body }) {
       >
         <DialogTitle id="scroll-dialog-title">{header}</DialogTitle>
         <DialogContent dividers={scroll === "paper"}>
-          <DialogContentText>{body}</DialogContentText>
+          <DialogContentText>{ReactHtmlParser(body)}</DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">

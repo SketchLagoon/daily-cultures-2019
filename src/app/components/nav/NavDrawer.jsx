@@ -37,7 +37,7 @@ export default function NavDrawer() {
       onKeyDown={toggleDrawer(side, true)}
     >
       <List>
-        {["Home", "Products", "Science", "Trial"].map((text, index) => (
+        {["Home", "Products", "Science", "Taster-Pack"].map((text, index) => (
           <a href={text}>
             <ListItem button key={text}>
               <ListItemText className="nav-font-fix" primary={text} />
